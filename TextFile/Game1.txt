@@ -1,0 +1,150 @@
+START-MES
+||Lost in the after life. The forest you find yourself in holds the secret to returning to the realm of the living.||
+
+WIN ORB-OF-LIFE
+
+WIN-MES
+Your body starts to glow. The great door slowly begins to open. As you fade into the light the warmth of new life fills your body.
+
+///////////////////////////////////////
+$$--NEW--ROOM--$$
+NUM 1
+
+NAME Clearing
+
+DES
+You are surrounded by grass. To the front is a forest,
+there are paths to your left and right.
+
+OBJ OLD-KEY
+
+MT NORTH 2
+MT EAST 3
+MT WEST 4
+
+//--END--ROOM--//
+///////////////////////////////////////
+
+$$--NEW--ROOM--$$
+NUM 2
+
+NAME The-Cookie-Forest
+
+DES
+Before you stands the Great Cookie Tree,
+He doesn't look pleased to see you.
+
+OBJ CANDY
+OBJ CHAIN
+
+MT SOUTH 1
+
+NPC
+The-Great-Cookie-Tree
+LADDER
+I AM THE GREAT COOKIE TREE! MIGHTY AND TALL! YOU WILL NEVER REACH MY BRANCHES!
+YOU DARE CLIMB ME WITH A LADDER!? TAKE YOUR COOKIE AND BE GONE!
+I TOLD YOU TO LEAVE ME! YOU HAVE TAKEN ONE OF MY BELOVED COOKIES! WHAT MORE COULD YOU NEED!
+COOKIE
+
+//--END--ROOM--//
+///////////////////////////////////////
+
+$$--NEW--ROOM--$$
+NUM 3
+
+NAME The-Demons-Hollow
+
+DES
+A Cookie Demon is skipping around the area,
+It seems to be eyeing you.
+
+OBJ FROG
+OBJ MUSHROOM
+
+MT WEST 1
+MT NORTH 7
+
+NPC
+Cookie-Demon
+COOKIE
+GiVe Me CoOkIe! I wIlL gIvE yOu ReWaRd! YeS! yEs!
+YeS! yEs! OoOoOoOoOfFfF! i GiVe YoU rEwArD!
+ThAnK yOu! YeS! yEs! I uSe CoOkIe FoR gOoD! i WiLl ChAnGe ThE wOrLd!
+LOCKED-CHEST OLD-KEY RARE-COIN
+
+//--END--ROOM--//
+///////////////////////////////////////
+
+$$--NEW--ROOM--$$
+NUM 4
+
+NAME The-Boat-House-Exterior
+
+DES
+To the left you can see an old worn out boat house,
+A small lake rests in front of it.
+
+MT NORTH 6
+MT EAST 1
+MT WEST 5 OLD-KEY
+
+//--END--ROOM--//
+///////////////////////////////////////
+
+$$--NEW--ROOM--$$
+NUM 5
+
+NAME The-Boat-House
+
+DES
+The boat house is old and full of junk.
+Maybe you should look around.
+
+OBJ LADDER
+OBJ ROPE
+
+MT EAST 4
+
+//--END--ROOM--//
+///////////////////////////////////////
+
+$$--NEW--ROOM--$$
+NUM 6
+
+NAME The-Lake
+
+DES
+Now that your closer to the lake you can see how big it really is.
+There's nothing here so you turn back
+
+MT FORCED 4
+
+//--END--ROOM--//
+///////////////////////////////////////
+
+$$--NEW--ROOM--$$
+NUM 7
+
+NAME THE-PASSAGE-OF-LIFE
+
+DES
+To the north you see a great door, light pouring out it's seams,
+an old well sits infront of it, whispered voices can be heard within.
+
+OBJ RUBBLE
+
+MT SOUTH 3
+
+NPC
+The-Haunted-Well
+RARE-COIN
+Those who seek passage back into the realm of the living need an offering!
+Your rare coin is of value and shall grant you passage back to your life!
+Do not waste the chance you have been given return to your realm!
+ORB-OF-LIFE
+
+//--END--ROOM--//
+///////////////////////////////////////
+
+
